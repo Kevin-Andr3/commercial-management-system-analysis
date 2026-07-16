@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RequerimientosServlet" version="4">
+  <OBJECT>
+    <ID name="RequerimientosServlet" mc="Standard.Class" uid="231e33b7-d463-4ceb-9486-c69f8bdb5050"/>
+    <PID name="RD_Registrar SR" mc="Standard.Package" uid="52eb9f9c-4945-407b-9044-30f899d9ac63"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RequerimientosServlet]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="ElementImport" mc="Standard.ElementImport" uid="a278b1d5-7f35-49aa-8d30-27998c697ee9"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"><![CDATA[ElementImport]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="Requerimientos Service" mc="Standard.Class" uid="bd0a5626-ed6d-4ff9-ba5c-04daa3bf315f"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <ID name="Controller" mc="Infrastructure.Stereotype" uid="d9169e09-dc18-46bb-9e5d-9cd718d21710"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

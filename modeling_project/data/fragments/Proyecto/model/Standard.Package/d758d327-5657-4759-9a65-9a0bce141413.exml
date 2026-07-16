@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RN_SolicitarMercancia" version="4">
+  <OBJECT>
+    <ID name="RN_SolicitarMercancia" mc="Standard.Package" uid="d758d327-5657-4759-9a65-9a0bce141413"/>
+    <PID name="RN" mc="Standard.Package" uid="9e3c3eb3-7100-4c22-a871-82994254742c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RN_SolicitarMercancia]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="17e010ab-bdde-4bf4-92fe-8ecae25d9518"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama de Clases del Negocio" mc="Standard.ClassDiagram" uid="8bf32fa9-2b32-4740-ba53-c0df0b8da0b0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

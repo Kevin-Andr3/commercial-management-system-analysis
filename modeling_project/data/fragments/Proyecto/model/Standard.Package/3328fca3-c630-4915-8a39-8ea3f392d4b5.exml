@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RA_ConsultarVenta" version="4">
+  <OBJECT>
+    <ID name="RA_ConsultarVenta" mc="Standard.Package" uid="3328fca3-c630-4915-8a39-8ea3f392d4b5"/>
+    <PID name="Venta" mc="Standard.Package" uid="79052662-e707-43d8-be55-86f9bb3bd326"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RA_ConsultarVenta]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Communication Interaction" mc="Standard.CommunicationInteraction" uid="f240e8c0-9525-4260-9363-1d1e7a40d701"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="CI_ConsultarVenta" mc="Standard.Class" uid="16b68fe7-74d4-4039-8d41-3fa7410246e3"/>
+        <COMPID name="CI_MenúPrincipal" mc="Standard.Class" uid="a7e2193a-093a-4719-9c70-4469e0b9ee89"/>
+        <COMPID name="CC_ConsultarVenta" mc="Standard.Class" uid="eb09a1ef-58b2-43bd-b740-2dc0daa38e89"/>
+        <COMPID name="Venta" mc="Standard.Class" uid="4ae2f263-f108-45d6-bf3c-02d7bd7d9948"/>
+        <COMPID name="Detalle_Venta" mc="Standard.Class" uid="22ddc1bf-fa16-40ef-8922-eb63ae9589b7"/>
+        <COMPID name="Cliente" mc="Standard.Class" uid="0f4103c9-4640-4b87-8058-55fa783a12b2"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama de Análisis de Clase" mc="Standard.ClassDiagram" uid="8fa793bf-1eba-4e60-b3a9-ff16e28a8185"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

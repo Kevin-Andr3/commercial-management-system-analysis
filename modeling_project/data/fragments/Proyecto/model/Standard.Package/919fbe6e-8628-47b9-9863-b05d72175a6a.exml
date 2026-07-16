@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Arquitectura de Analisis" version="4">
+  <OBJECT>
+    <ID name="Arquitectura de Analisis" mc="Standard.Package" uid="919fbe6e-8628-47b9-9863-b05d72175a6a"/>
+    <PID name="Modelo de Analisis" mc="Standard.Package" uid="49c987e7-69aa-45a6-b626-3bf398338a3d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Arquitectura de Analisis]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Product">
+        <COMPID name="Arquitectura del analisis" mc="Standard.ClassDiagram" uid="8fe9356f-c524-4be6-bbf5-fc61c8043bb1"/>
+        <COMPID name="Diagrama General de Caso de Uso segun el Analisis" mc="Standard.UseCaseDiagram" uid="a1f2db8a-f45a-490a-bad1-0443fe38ed27"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

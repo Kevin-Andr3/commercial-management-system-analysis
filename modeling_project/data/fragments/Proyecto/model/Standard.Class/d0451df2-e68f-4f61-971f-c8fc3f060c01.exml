@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="BuscarRequerimientos_Razor" version="4">
+  <OBJECT>
+    <ID name="BuscarRequerimientos_Razor" mc="Standard.Class" uid="d0451df2-e68f-4f61-971f-c8fc3f060c01"/>
+    <PID name="RD_BuscarRequerimiento" mc="Standard.Package" uid="2d101e29-54b9-4fd8-917e-03e4f9c2da2b"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[BuscarRequerimientos_Razor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="ElementImport" mc="Standard.ElementImport" uid="683eaea1-e7d4-463a-acb1-e747d54a918c"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"><![CDATA[ElementImport]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="BuscarRequerimientos.HTML" mc="Standard.Class" uid="a1c72e24-e2bd-41a2-8084-e19eb5fdb57d"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <ID name="Razor" mc="Infrastructure.Stereotype" uid="16af86ea-4723-4d38-9452-d9f68d30724c"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

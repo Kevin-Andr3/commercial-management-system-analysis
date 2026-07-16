@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Conecta_BD" version="4">
+  <OBJECT>
+    <ID name="Conecta_BD" mc="Standard.Class" uid="f8c5b267-3dc7-4f8c-b063-aed2fabaaff9"/>
+    <PID name="RD_Registrar Recepción Mercadería" mc="Standard.Package" uid="3c2f2e8c-fd0e-4772-a7be-61242772093b"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Conecta_BD]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

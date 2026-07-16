@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Caso de Uso" version="4">
+  <OBJECT>
+    <ID name="Caso de Uso" mc="Standard.Package" uid="fc24fafc-0049-4432-b1cb-8acfa94fa975"/>
+    <PID name="Modelo de Caso de Uso" mc="Standard.Package" uid="69116ca1-f8c5-43f9-b306-e3461c2dd21a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Caso de Uso]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Buscar Producto" mc="Standard.UseCase" uid="a6c9251a-022b-4430-920b-ba6d77dbcb42"/>
+        <COMPID name="Mantener Cliente" mc="Standard.UseCase" uid="c170f83c-9162-4484-84aa-84927fe84c05"/>
+        <COMPID name="Registrar Venta" mc="Standard.UseCase" uid="9188b126-d499-4e8f-938d-208747f792fa"/>
+        <COMPID name="Consultar Venta" mc="Standard.UseCase" uid="ec70ffb0-0e4b-4f4a-8b95-b7bcb0fae24f"/>
+        <COMPID name="Registrar Solicitud de Requerimientos" mc="Standard.UseCase" uid="a8cd101a-616e-4db2-a4ff-d01c1923d70f"/>
+        <COMPID name="Generar orden de comprar" mc="Standard.UseCase" uid="0ddd1000-69cb-4bd3-ac55-77e0329ede47"/>
+        <COMPID name="Buscar Proveedor Registrado" mc="Standard.UseCase" uid="1a440271-3ecc-4365-a8b7-c81d099b070d"/>
+        <COMPID name="Registrar Recepción de Mercadería" mc="Standard.UseCase" uid="717ad0ba-0588-432c-8232-308209e4c9ba"/>
+        <COMPID name="Buscar requerimientos adicionales" mc="Standard.UseCase" uid="232c8fe0-86d3-41c5-b547-2315fc6461ed"/>
+        <COMPID name="Mantener Proveedor" mc="Standard.UseCase" uid="34517249-f891-4a66-bdfc-dbcd9f6d8dc1"/>
+        <COMPID name="Generar reportes de ventas" mc="Standard.UseCase" uid="fd95ed75-49b1-4fa6-b708-89c058984f20"/>
+        <COMPID name="Mantener productos" mc="Standard.UseCase" uid="58570b46-4196-4aa6-95cd-269fd5652a5f"/>
+        <COMPID name="Buscar Cliente" mc="Standard.UseCase" uid="aa55aba2-b883-47ef-9b5d-80cccd2a12e2"/>
+        <COMPID name="Buscar orden de compra" mc="Standard.UseCase" uid="cfb800fe-c0c1-4926-b08b-ff622b417603"/>
+        <COMPID name="Registrar devolucion de producto" mc="Standard.UseCase" uid="4fff2981-a93f-4f37-a204-7c96d86c38b5"/>
+        <COMPID name="Registrar pago al proveedor" mc="Standard.UseCase" uid="cc8dfe8a-ad6c-489b-b267-9c6e5535d2e2"/>
+        <COMPID name="Buscar orden de recepcion" mc="Standard.UseCase" uid="b6968cbe-52e4-4b08-85f9-7277b624dea4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MenuPrincipal_Razor" version="4">
+  <OBJECT>
+    <ID name="MenuPrincipal_Razor" mc="Standard.Class" uid="bd7bd294-7400-48ba-8e7f-865000913b66"/>
+    <PID name="RD_Registrar SR" mc="Standard.Package" uid="52eb9f9c-4945-407b-9044-30f899d9ac63"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[MenuPrincipal_Razor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="ElementImport" mc="Standard.ElementImport" uid="e19e655d-854e-46fb-ab89-503780ff4336"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"><![CDATA[ElementImport]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="MenuPrincipal.HTML" mc="Standard.Class" uid="5a514e51-b2f0-4027-b84d-604811ccff4e"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <ID name="Razor" mc="Infrastructure.Stereotype" uid="16af86ea-4723-4d38-9452-d9f68d30724c"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RecepciónMercaderia" version="4">
+  <OBJECT>
+    <ID name="RecepciónMercaderia" mc="Standard.Class" uid="177dc9a7-a0d7-4cd6-a992-aa6e15e56556"/>
+    <PID name="RA_RegistrarRecepciónMercadería" mc="Standard.Package" uid="96a07c5a-9978-4cbf-a58b-86f3598ccbfe"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RecepciónMercaderia]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <ID name="Entidad" mc="Infrastructure.Stereotype" uid="6939d51c-fa34-4346-abbb-8d8ed0a912e1"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

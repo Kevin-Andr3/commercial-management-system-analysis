@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Proyecto" version="4">
+  <OBJECT>
+    <ID name="Proyecto" mc="Standard.Project" uid="f5c6e8af-be9c-487a-84f9-2f2151b616e0"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Proyecto]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="Modelado de Negocio" mc="Standard.Package" uid="86bcdafe-e21c-494c-a1f0-e984113765d6"/>
+        <COMPID name="Modelo de Caso de Uso" mc="Standard.Package" uid="69116ca1-f8c5-43f9-b306-e3461c2dd21a"/>
+        <COMPID name="Modelo de Analisis" mc="Standard.Package" uid="49c987e7-69aa-45a6-b626-3bf398338a3d"/>
+        <COMPID name="Modelo de Diseño" mc="Standard.Package" uid="0d901f37-4fb3-4898-9317-62136a3ae9e6"/>
+        <COMPID name="Modelo de Despliegue" mc="Standard.Package" uid="933b8c22-3ed2-4517-90f5-765cf9c4fec7"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Proyecto" mc="Infrastructure.DiagramSet" uid="307b6114-4340-47b3-a36e-e61869ce1dc8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

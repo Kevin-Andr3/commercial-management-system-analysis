@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Frm_BuscarRequerimientos" version="4">
+  <OBJECT>
+    <ID name="Frm_BuscarRequerimientos" mc="Standard.Class" uid="72a93884-2256-4d63-9032-9477302d0419"/>
+    <PID name="RD_BuscarRequerimiento" mc="Standard.Package" uid="2d101e29-54b9-4fd8-917e-03e4f9c2da2b"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Frm_BuscarRequerimientos]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <ID name="FrmHTML" mc="Infrastructure.Stereotype" uid="fd9e4243-b611-4b67-ac00-9cb9894c7a6f"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

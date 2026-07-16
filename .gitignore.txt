@@ -1,0 +1,6 @@
+# Archivos temporales de Modelio y del sistema
+.runtime/tmp/
+.runtime/*.log
+Thumbs.db
+.DS_Store
+*.tmp

@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="BuscarOrdenCompra_Razor" version="4">
+  <OBJECT>
+    <ID name="BuscarOrdenCompra_Razor" mc="Standard.Class" uid="2e81c846-1207-4f13-86fc-0c762412d2c9"/>
+    <PID name="RD_BuscarOrden_de_Compra" mc="Standard.Package" uid="356a97a8-5bf6-4edf-a57a-6be5e7b1a7ea"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[BuscarOrdenCompra_Razor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="ElementImport" mc="Standard.ElementImport" uid="d988802b-33c7-4ade-b7ab-5e45be58a975"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"><![CDATA[ElementImport]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="BuscarOrdenCompra.html" mc="Standard.Class" uid="6ed67465-9551-40fa-9b25-9297121a2f08"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <ID name="Razor" mc="Infrastructure.Stereotype" uid="16af86ea-4723-4d38-9452-d9f68d30724c"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

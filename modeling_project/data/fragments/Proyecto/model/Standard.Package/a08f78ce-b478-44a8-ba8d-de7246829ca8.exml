@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Realizacion de Analisis" version="4">
+  <OBJECT>
+    <ID name="Realizacion de Analisis" mc="Standard.Package" uid="a08f78ce-b478-44a8-ba8d-de7246829ca8"/>
+    <PID name="Modelo de Analisis" mc="Standard.Package" uid="49c987e7-69aa-45a6-b626-3bf398338a3d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Realizacion de Analisis]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Cliente" mc="Standard.Package" uid="162370e1-863f-4ae6-9061-366e90cac135"/>
+        <COMPID name="Venta" mc="Standard.Package" uid="79052662-e707-43d8-be55-86f9bb3bd326"/>
+        <COMPID name="Mercaderia" mc="Standard.Package" uid="0d350549-568a-4a54-a616-1736f2c90ab4"/>
+        <COMPID name="Producto" mc="Standard.Package" uid="f239b6fa-07cb-4829-9bbb-e2ea9d29f5a2"/>
+        <COMPID name="Proveedor" mc="Standard.Package" uid="5c94b7e2-c418-457a-a0ad-fff10689643d"/>
+        <COMPID name="Orden de Compra" mc="Standard.Package" uid="32712543-2c39-4dd1-8175-583510bf74d0"/>
+        <COMPID name="Requerimientos" mc="Standard.Package" uid="cbbdb17f-f2e7-4c5b-846b-6a3eb3f5c800"/>
+        <COMPID name="Pago" mc="Standard.Package" uid="225d33f8-abf5-44c9-a2c9-a35a4a166399"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

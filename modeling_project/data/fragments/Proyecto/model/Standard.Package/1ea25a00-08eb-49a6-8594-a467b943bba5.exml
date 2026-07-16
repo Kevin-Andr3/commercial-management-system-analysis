@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RD_GenerarOrden_de_Compra" version="4">
+  <OBJECT>
+    <ID name="RD_GenerarOrden_de_Compra" mc="Standard.Package" uid="1ea25a00-08eb-49a6-8594-a467b943bba5"/>
+    <PID name="Realización del Diseño" mc="Standard.Package" uid="6cc4f43a-5abf-465c-99c9-8486d36eabe6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RD_GenerarOrden_de_Compra]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="b131240a-763a-4af8-894a-c135b129a971"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="MenuPrincipal.html" mc="Standard.Class" uid="8c4b84db-bce5-44c6-8c6e-35ced6f874e6"/>
+        <COMPID name="FrmGenerarOrdenDeCompra" mc="Standard.Class" uid="c1656839-1015-4e4d-b5d8-3616a4940716"/>
+        <COMPID name="MenuPrincipal_Razor" mc="Standard.Class" uid="c172a92a-c79e-47b1-a1d2-d14947c3f7e0"/>
+        <COMPID name="GenerarOrdenDeCompra.html" mc="Standard.Class" uid="241226a3-0382-473e-8b89-21599af5370a"/>
+        <COMPID name="GenerarOrdenDeCompra_Razor" mc="Standard.Class" uid="b43a8e07-cd89-4746-8e49-9694e90b6c25"/>
+        <COMPID name="OrdenDeCompra Servlet" mc="Standard.Class" uid="7f8fab9b-f2ae-4d64-84cf-da657c58a28f"/>
+        <COMPID name="OrdenDeCompra Service" mc="Standard.Class" uid="bca6e42c-3432-46dd-93ab-a1068cdda9dd"/>
+        <COMPID name="DAOFactory" mc="Standard.Class" uid="3a19c8e1-58b7-4ba2-8580-4a521a09f5d6"/>
+        <COMPID name="MySQLDAOFactory" mc="Standard.Class" uid="cc737e8b-744f-4691-9e07-5a3dcd94e6b8"/>
+        <COMPID name="MySQLOrdenDeCompraDAO" mc="Standard.Class" uid="436b062a-1bfc-4fb5-9efe-f92e493e9845"/>
+        <COMPID name="Interface" mc="Standard.Interface" uid="533b6f60-8c8e-4a77-9c78-62acdcf7c429"/>
+        <COMPID name="ConectaBD" mc="Standard.Class" uid="ff5b7699-5496-41cb-9415-4e1788cbe5f7"/>
+        <COMPID name="ArrayList" mc="Standard.Class" uid="146b6553-97bd-4231-95ad-d719a42503bc"/>
+        <COMPID name="Det_OrdenCompra" mc="Standard.Class" uid="7c181ec1-bbce-4079-8104-2cd3f81a0f56"/>
+        <COMPID name="OrdenCompra" mc="Standard.Class" uid="ca4b941f-18b1-49f1-b137-de32160db9eb"/>
+        <COMPID name="Proveedor" mc="Standard.Class" uid="5a69f726-1f2e-4b82-9c2a-631510bdefcb"/>
+        <COMPID name="Producto" mc="Standard.Class" uid="63bd2870-8158-4909-ade3-6adfe2046db4"/>
+        <COMPID name="Requerimientos" mc="Standard.Class" uid="5d4eae7a-816e-41bf-b49a-2d2b55102595"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama de Clases del Diseño" mc="Standard.ClassDiagram" uid="3b718421-5c9f-4f73-aa8c-5df61ccc65ac"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

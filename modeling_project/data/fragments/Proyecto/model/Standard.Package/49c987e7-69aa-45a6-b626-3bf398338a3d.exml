@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Modelo de Analisis" version="4">
+  <OBJECT>
+    <ID name="Modelo de Analisis" mc="Standard.Package" uid="49c987e7-69aa-45a6-b626-3bf398338a3d"/>
+    <PID name="Proyecto" mc="Standard.Project" uid="f5c6e8af-be9c-487a-84f9-2f2151b616e0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Modelo de Analisis]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Arquitectura de Analisis" mc="Standard.Package" uid="919fbe6e-8628-47b9-9863-b05d72175a6a"/>
+        <COMPID name="Realizacion de Analisis" mc="Standard.Package" uid="a08f78ce-b478-44a8-ba8d-de7246829ca8"/>
+        <COMPID name="Modelo Conceptual" mc="Standard.Package" uid="49c122c2-0632-4798-8866-d2c679bfe4f0"/>
+      </COMP>
+      <LINK relation="Extension">
+        <ID name="MA" mc="Infrastructure.Stereotype" uid="fc8db6c2-6174-4a1a-bf80-aebd685820e6"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

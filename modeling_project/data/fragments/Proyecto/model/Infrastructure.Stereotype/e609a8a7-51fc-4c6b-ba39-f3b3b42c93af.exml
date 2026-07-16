@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Interfaz" version="4">
+  <OBJECT>
+    <ID name="Interfaz" mc="Infrastructure.Stereotype" uid="e609a8a7-51fc-4c6b-ba39-f3b3b42c93af"/>
+    <PID name="LocalProfile" mc="Infrastructure.Profile" uid="639ad6b8-b2e5-488f-a5c4-a3a88d621085"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[boundary.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[Interfaz]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Class]]></ATT>
+      <ATT name="Name"><![CDATA[Interfaz]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

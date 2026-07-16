@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="FrmGenerarOrdenDeCompra" version="4">
+  <OBJECT>
+    <ID name="FrmGenerarOrdenDeCompra" mc="Standard.Class" uid="c1656839-1015-4e4d-b5d8-3616a4940716"/>
+    <PID name="RD_Orden_de_Compra" mc="Standard.Package" uid="1ea25a00-08eb-49a6-8594-a467b943bba5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[FrmGenerarOrdenDeCompra]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <ID name="FrmHTML" mc="Infrastructure.Stereotype" uid="fd9e4243-b611-4b67-ac00-9cb9894c7a6f"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

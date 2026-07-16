@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MenuRecepcion_Razor" version="4">
+  <OBJECT>
+    <ID name="MenuRecepcion_Razor" mc="Standard.Class" uid="a4cc748e-42ad-4a44-8946-ecbf29e11bf7"/>
+    <PID name="RD_Registrar Recepción Mercadería" mc="Standard.Package" uid="3c2f2e8c-fd0e-4772-a7be-61242772093b"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[MenuRecepcion_Razor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="ElementImport" mc="Standard.ElementImport" uid="e881860a-a51e-4caa-9677-06a0e451e66b"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"><![CDATA[ElementImport]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="MenuRecepcion.HTML" mc="Standard.Class" uid="8a2fb42f-4233-479e-88cb-b14ef7a00a57"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <ID name="Razor" mc="Infrastructure.Stereotype" uid="16af86ea-4723-4d38-9452-d9f68d30724c"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

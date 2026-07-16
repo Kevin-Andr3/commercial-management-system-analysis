@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GenerarOrdenDeCompra_Razor" version="4">
+  <OBJECT>
+    <ID name="GenerarOrdenDeCompra_Razor" mc="Standard.Class" uid="b43a8e07-cd89-4746-8e49-9694e90b6c25"/>
+    <PID name="RD_Orden_de_Compra" mc="Standard.Package" uid="1ea25a00-08eb-49a6-8594-a467b943bba5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[GenerarOrdenDeCompra_Razor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="ElementImport" mc="Standard.ElementImport" uid="d038b166-c734-4597-9751-7a92dd75aceb"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"><![CDATA[ElementImport]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="GenerarOrdenDeCompra.html" mc="Standard.Class" uid="241226a3-0382-473e-8b89-21599af5370a"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <ID name="Razor" mc="Infrastructure.Stereotype" uid="16af86ea-4723-4d38-9452-d9f68d30724c"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:LocalProfile="http:///schemas/LocalProfile/_kWWsAFAZEfGMvte8c6zBqQ/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/LocalProfile/_kWWsAFAZEfGMvte8c6zBqQ/0 LocalProfile.profile.xmi#_kXbqF1AZEfGMvte8c6zBqQ">
+  <uml:Model xmi:id="_kWSakFAZEfGMvte8c6zBqQ" name="RA_Registrar Solicitud de Requerimientos">
+    <eAnnotations xmi:id="_kWSakVAZEfGMvte8c6zBqQ" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_kWSaklAZEfGMvte8c6zBqQ" name="exporterVersion">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_kWSak1AZEfGMvte8c6zBqQ" value="3.0.0"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kWSalFAZEfGMvte8c6zBqQ" name="CI_RegistrarSR">
+      <ownedAttribute xmi:id="_kWSalVAZEfGMvte8c6zBqQ" name="cC_RegistrarSR" visibility="public" type="_kWSaoFAZEfGMvte8c6zBqQ" isUnique="false" association="_kWSal1AZEfGMvte8c6zBqQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kWSallAZEfGMvte8c6zBqQ"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_kWSal1AZEfGMvte8c6zBqQ" memberEnd="_kWSalVAZEfGMvte8c6zBqQ _kWSamFAZEfGMvte8c6zBqQ">
+      <ownedEnd xmi:id="_kWSamFAZEfGMvte8c6zBqQ" visibility="public" type="_kWSalFAZEfGMvte8c6zBqQ" isUnique="false" association="_kWSal1AZEfGMvte8c6zBqQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kWSamVAZEfGMvte8c6zBqQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kWSamlAZEfGMvte8c6zBqQ" name="CI_BuscarProducto">
+      <ownedAttribute xmi:id="_kWSam1AZEfGMvte8c6zBqQ" name="cC_RegistrarSR" visibility="public" type="_kWSaoFAZEfGMvte8c6zBqQ" isUnique="false" association="_kWSanVAZEfGMvte8c6zBqQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kWSanFAZEfGMvte8c6zBqQ"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_kWSanVAZEfGMvte8c6zBqQ" memberEnd="_kWSam1AZEfGMvte8c6zBqQ _kWSanlAZEfGMvte8c6zBqQ">
+      <ownedEnd xmi:id="_kWSanlAZEfGMvte8c6zBqQ" visibility="public" type="_kWSamlAZEfGMvte8c6zBqQ" isUnique="false" association="_kWSanVAZEfGMvte8c6zBqQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kWSan1AZEfGMvte8c6zBqQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kWSaoFAZEfGMvte8c6zBqQ" name="CC_RegistrarSR">
+      <ownedAttribute xmi:id="_kWSaoVAZEfGMvte8c6zBqQ" name="producto" visibility="public" type="_kWSasFAZEfGMvte8c6zBqQ" isUnique="false" association="_kWSap1AZEfGMvte8c6zBqQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kWSaolAZEfGMvte8c6zBqQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_kWSao1AZEfGMvte8c6zBqQ" name="requerimientos" visibility="public" type="_kWSasVAZEfGMvte8c6zBqQ" isUnique="false" association="_kWSaqlAZEfGMvte8c6zBqQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kWSapFAZEfGMvte8c6zBqQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_kWSapVAZEfGMvte8c6zBqQ" name="detalle_SolicitudRequerimientos" visibility="public" type="_kWSaslAZEfGMvte8c6zBqQ" isUnique="false" association="_kWSarVAZEfGMvte8c6zBqQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kWSaplAZEfGMvte8c6zBqQ"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_kWSap1AZEfGMvte8c6zBqQ" memberEnd="_kWSaoVAZEfGMvte8c6zBqQ _kWSaqFAZEfGMvte8c6zBqQ">
+      <ownedEnd xmi:id="_kWSaqFAZEfGMvte8c6zBqQ" visibility="public" type="_kWSaoFAZEfGMvte8c6zBqQ" isUnique="false" association="_kWSap1AZEfGMvte8c6zBqQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kWSaqVAZEfGMvte8c6zBqQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_kWSaqlAZEfGMvte8c6zBqQ" memberEnd="_kWSao1AZEfGMvte8c6zBqQ _kWSaq1AZEfGMvte8c6zBqQ">
+      <ownedEnd xmi:id="_kWSaq1AZEfGMvte8c6zBqQ" visibility="public" type="_kWSaoFAZEfGMvte8c6zBqQ" isUnique="false" association="_kWSaqlAZEfGMvte8c6zBqQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kWSarFAZEfGMvte8c6zBqQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_kWSarVAZEfGMvte8c6zBqQ" memberEnd="_kWSapVAZEfGMvte8c6zBqQ _kWSarlAZEfGMvte8c6zBqQ">
+      <ownedEnd xmi:id="_kWSarlAZEfGMvte8c6zBqQ" visibility="public" type="_kWSaoFAZEfGMvte8c6zBqQ" isUnique="false" association="_kWSarVAZEfGMvte8c6zBqQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kWSar1AZEfGMvte8c6zBqQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kWSasFAZEfGMvte8c6zBqQ" name="Producto"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kWSasVAZEfGMvte8c6zBqQ" name="Requerimientos"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kWSaslAZEfGMvte8c6zBqQ" name="Detalle_SR"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kWSas1AZEfGMvte8c6zBqQ" name="CI_MenúPrincipal">
+      <ownedAttribute xmi:id="_kWSatFAZEfGMvte8c6zBqQ" name="cC_RegistrarSR" visibility="public" type="_kWSaoFAZEfGMvte8c6zBqQ" isUnique="false" association="_kWSatlAZEfGMvte8c6zBqQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kWSatVAZEfGMvte8c6zBqQ"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_kWSatlAZEfGMvte8c6zBqQ" memberEnd="_kWSatFAZEfGMvte8c6zBqQ _kWSat1AZEfGMvte8c6zBqQ">
+      <ownedEnd xmi:id="_kWSat1AZEfGMvte8c6zBqQ" visibility="public" type="_kWSas1AZEfGMvte8c6zBqQ" isUnique="false" association="_kWSatlAZEfGMvte8c6zBqQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kWSauFAZEfGMvte8c6zBqQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <profileApplication xmi:id="_kXjl4FAZEfGMvte8c6zBqQ">
+      <eAnnotations xmi:id="_kXk0AFAZEfGMvte8c6zBqQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="LocalProfile.profile.xmi#_kXbqF1AZEfGMvte8c6zBqQ"/>
+      </eAnnotations>
+      <appliedProfile href="LocalProfile.profile.xmi#_kXbqEFAZEfGMvte8c6zBqQ"/>
+    </profileApplication>
+  </uml:Model>
+  <LocalProfile:Interfaz xmi:id="_kXmpMFAZEfGMvte8c6zBqQ" base_Class="_kWSalFAZEfGMvte8c6zBqQ"/>
+  <LocalProfile:Interfaz xmi:id="_kXmpMVAZEfGMvte8c6zBqQ" base_Class="_kWSamlAZEfGMvte8c6zBqQ"/>
+  <LocalProfile:Control xmi:id="_kXmpMlAZEfGMvte8c6zBqQ" base_Class="_kWSaoFAZEfGMvte8c6zBqQ"/>
+  <LocalProfile:Entidad xmi:id="_kXmpM1AZEfGMvte8c6zBqQ" base_Class="_kWSasFAZEfGMvte8c6zBqQ"/>
+  <LocalProfile:Entidad xmi:id="_kXmpNFAZEfGMvte8c6zBqQ" base_Class="_kWSasVAZEfGMvte8c6zBqQ"/>
+  <LocalProfile:Entidad xmi:id="_kXmpNVAZEfGMvte8c6zBqQ" base_Class="_kWSaslAZEfGMvte8c6zBqQ"/>
+  <LocalProfile:Interfaz xmi:id="_kXmpNlAZEfGMvte8c6zBqQ" base_Class="_kWSas1AZEfGMvte8c6zBqQ"/>
+</xmi:XMI>

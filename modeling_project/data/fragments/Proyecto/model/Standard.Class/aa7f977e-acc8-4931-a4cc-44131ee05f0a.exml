@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Minimizar el intercambio de productos vencidos en un 15% para los proximos 9 meses del 2026" version="4">
+  <OBJECT>
+    <ID name="Minimizar el intercambio de productos vencidos en un 15% para los proximos 9 meses del 2026" mc="Standard.Class" uid="aa7f977e-acc8-4931-a4cc-44131ee05f0a"/>
+    <PID name="ON" mc="Standard.Package" uid="07c42d46-12c0-4097-8001-e3ef1d9e6edd"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Minimizar el intercambio de productos vencidos en un 15% para los proximos 9 meses del 2026]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="ElementImport" mc="Standard.ElementImport" uid="5dc0ac1c-6d83-4226-b0ee-aa5cdd8297c1"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"><![CDATA[ElementImport]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="Recepcion de mercaderia" mc="Standard.UseCase" uid="d59de918-5160-4537-a1e8-d556511a6318"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ElementImport" mc="Standard.ElementImport" uid="9cb5102b-764d-4467-96d3-be7e08f77ab1"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"><![CDATA[ElementImport]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="Solicitud de compra de mercadería" mc="Standard.UseCase" uid="9fa59c5a-702e-49dd-bdc9-6774467ccd84"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <ID name="ON" mc="Infrastructure.Stereotype" uid="898f81ec-3a6a-4629-8015-2c0dde787a07"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

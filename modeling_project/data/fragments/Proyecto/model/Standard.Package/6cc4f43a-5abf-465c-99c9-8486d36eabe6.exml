@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Realización del Diseño" version="4">
+  <OBJECT>
+    <ID name="Realización del Diseño" mc="Standard.Package" uid="6cc4f43a-5abf-465c-99c9-8486d36eabe6"/>
+    <PID name="Modelo de Diseño" mc="Standard.Package" uid="0d901f37-4fb3-4898-9317-62136a3ae9e6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Realización del Diseño]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="RD_Registrar SR" mc="Standard.Package" uid="52eb9f9c-4945-407b-9044-30f899d9ac63"/>
+        <COMPID name="RD_RegistrarVenta" mc="Standard.Package" uid="1db23a55-d677-4c02-832b-47f5e5b721e9"/>
+        <COMPID name="RD_ConsultarVenta" mc="Standard.Package" uid="d17677f8-cb00-4d9e-b165-94afc9271abc"/>
+        <COMPID name="RD_BuscarRequerimiento" mc="Standard.Package" uid="2d101e29-54b9-4fd8-917e-03e4f9c2da2b"/>
+        <COMPID name="RD_GenerarOrden_de_Compra" mc="Standard.Package" uid="1ea25a00-08eb-49a6-8594-a467b943bba5"/>
+        <COMPID name="RD_BuscarOrden_de_Compra" mc="Standard.Package" uid="356a97a8-5bf6-4edf-a57a-6be5e7b1a7ea"/>
+        <COMPID name="RD_Registrar Recepción Mercadería" mc="Standard.Package" uid="3c2f2e8c-fd0e-4772-a7be-61242772093b"/>
+        <COMPID name="RD_ Buscar Recepción" mc="Standard.Package" uid="ccf3cd3c-2d55-4dad-8974-a313ee8571ae"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

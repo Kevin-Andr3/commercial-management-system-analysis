@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="VentServlet" version="4">
+  <OBJECT>
+    <ID name="VentServlet" mc="Standard.Class" uid="0911c09c-a693-45b7-a91e-35f7928d76ce"/>
+    <PID name="RD_ConsultarVenta" mc="Standard.Package" uid="d17677f8-cb00-4d9e-b165-94afc9271abc"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[VentServlet]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="ElementImport" mc="Standard.ElementImport" uid="9646390f-9421-45bc-b23a-991131dfc42f"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"><![CDATA[ElementImport]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="VentService" mc="Standard.Class" uid="0471a3e8-5401-4d3b-9613-3640bf4b614f"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <ID name="Controller" mc="Infrastructure.Stereotype" uid="d9169e09-dc18-46bb-9e5d-9cd718d21710"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

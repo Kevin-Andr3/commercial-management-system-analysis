@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagrama de clases del negocio" version="4">
+  <OBJECT>
+    <ID name="Diagrama de clases del negocio" mc="Standard.ClassDiagram" uid="722fb26e-4c61-4db6-9b2d-0baea9b892c8"/>
+    <PID name="RN_RegistrarVentas" mc="Standard.Package" uid="534e7fbe-50f4-4631-9461-1338eaac3c4e"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">1</ATT>
+      <ATT name="UiData"><![CDATA[eJztVU1P4zAQ/StW7nXbbFWoFIogQVVFlqJ2QeKEJvEQDI5d2S40/36dJmVp2HazEloue8r44828mXkTB6frXJAX1IYreeL1ac8jp+Ngljxhaglnbssjtljiiad0RnPFUHBFV7mgxoLlz4xDpiGnyLhVmqLAHKU11Wm6PZ3ki806qtYeyeFJ6fu3uD1vHFxrtURtCyIhd+EEFGplI7Dgzm5BrLDmIVdCeN1x0N0CPkAXthDo7WTh/y6LLTtT3jc0VRpphW3BLwSTAkO2DXaxtnN8aBnlyrmokQTXNkqmjuPGLI1QJSBsI8dulc2hvDUKsMgcjUbJvpdb5KXcKasDkoFmNBRgTN0RcuT7D4k/xM4gHfY7A5YMO6PEZ51eAgij5Hjkp8eHq+682UupXmUMCYoGg4XVXGbeuA4HhCFJHQKNswSRmKmUq6C7wRzMUQmcylDlS2W4dc3ZE6iFq/CRC6ax9BBzU1a2/uxFxFw+m/bXz7NIw6ujE0OBeleQ3w4J8m2KWIU3VJQe3BjtOPw3U/R3qK/VIGf7dDeh8dndxfz+/Cy8nMxnN1fR5yikxVi+79kv9bzTwuC/Fr5ECz9m158tgj/9EhoPIa371WA6lRazsql1ifp73oKfsmGz/Q==]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAIAAAAmdTLBAAAAGElEQVR4nGP4TxlgGNU/qn9U/6j+EaofAB8cJiE1IQRUAAAAAElFTkSuQmCC]]></ATT>
+      <ATT name="JsStructure"></ATT>
+      <ATT name="Name"><![CDATA[Diagrama de clases del negocio]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="4f535b1e-e77e-4a40-9fec-08a0de69f681"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

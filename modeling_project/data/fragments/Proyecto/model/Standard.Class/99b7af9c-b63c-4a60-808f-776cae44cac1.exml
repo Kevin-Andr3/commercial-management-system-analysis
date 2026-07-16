@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="BRecepcion Servlet" version="4">
+  <OBJECT>
+    <ID name="BRecepcion Servlet" mc="Standard.Class" uid="99b7af9c-b63c-4a60-808f-776cae44cac1"/>
+    <PID name="RD_ Buscar Recepción" mc="Standard.Package" uid="ccf3cd3c-2d55-4dad-8974-a313ee8571ae"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[BRecepcion Servlet]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="ElementImport" mc="Standard.ElementImport" uid="cd8f303b-13de-44e1-9f68-fb418d3bbcb7"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"><![CDATA[ElementImport]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="BRecepcion Service" mc="Standard.Class" uid="024416de-8250-4af4-b320-ab2184f7462b"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <ID name="Controller" mc="Infrastructure.Stereotype" uid="d9169e09-dc18-46bb-9e5d-9cd718d21710"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

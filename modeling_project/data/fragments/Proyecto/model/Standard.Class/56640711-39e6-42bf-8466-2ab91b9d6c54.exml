@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Comprobante de pago" version="4">
+  <OBJECT>
+    <ID name="Comprobante de pago" mc="Standard.Class" uid="56640711-39e6-42bf-8466-2ab91b9d6c54"/>
+    <PID name="EN" mc="Standard.Package" uid="92952f6a-cb29-464f-b42f-a128c244e0c5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Comprobante de pago]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <ID name="EN" mc="Infrastructure.Stereotype" uid="b0cb288c-cd1c-4197-8e8b-c462bb18e393"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Modelo Conceptual" version="4">
+  <OBJECT>
+    <ID name="Modelo Conceptual" mc="Standard.Package" uid="49c122c2-0632-4798-8866-d2c679bfe4f0"/>
+    <PID name="Modelo de Analisis" mc="Standard.Package" uid="49c987e7-69aa-45a6-b626-3bf398338a3d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Modelo Conceptual]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Categoría_prod" mc="Standard.Class" uid="1387d2c9-4a8c-4801-8ba0-5ccd7831bc15"/>
+        <COMPID name="Empleado" mc="Standard.Class" uid="31b8cbf5-c651-4603-90a3-1eaa198065e9"/>
+        <COMPID name="Administrador" mc="Standard.Class" uid="0857d919-525f-4189-8cb4-353b182a0fb2"/>
+        <COMPID name="Pago Recepción" mc="Standard.Class" uid="533f21ae-0bcc-40d5-8440-0744c01c477a"/>
+        <COMPID name="Orden_Compra" mc="Standard.Class" uid="7f560ef4-eae1-422c-b57e-a8668e1e1830"/>
+        <COMPID name="Proveedor" mc="Standard.Class" uid="be159238-60bf-457a-b20d-a3100954dac2"/>
+        <COMPID name="Venta" mc="Standard.Class" uid="c65b1acc-3eac-45d8-964e-2fed0835d8d9"/>
+        <COMPID name="Cliente" mc="Standard.Class" uid="7a6f2247-ca2b-48e0-b80a-f6d82dc5ff4c"/>
+        <COMPID name="Solicitud  Requerimientos" mc="Standard.Class" uid="26ce252b-5f21-4572-ad76-c5be7f459480"/>
+        <COMPID name="Requerimientos" mc="Standard.Class" uid="57f4ec68-68aa-4ee0-938c-238e13e54cdd"/>
+        <COMPID name="Vendedor" mc="Standard.Class" uid="2984ab06-2d4d-414b-8ccf-08617e8b764e"/>
+        <COMPID name="Devolucion" mc="Standard.Class" uid="2fd2491d-cafd-4cba-ae9f-3c627bb354ed"/>
+        <COMPID name="Det. Devolucion" mc="Standard.Class" uid="87feced5-527f-4971-a1af-424a975cb256"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Modelo Conceptual" mc="Standard.ClassDiagram" uid="0fad4211-ad86-4be0-8b43-aef5f90cea61"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RD_BuscarRequerimiento" version="4">
+  <OBJECT>
+    <ID name="RD_BuscarRequerimiento" mc="Standard.Package" uid="2d101e29-54b9-4fd8-917e-03e4f9c2da2b"/>
+    <PID name="Realización del Diseño" mc="Standard.Package" uid="6cc4f43a-5abf-465c-99c9-8486d36eabe6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RD_BuscarRequerimiento]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="09e57605-88ee-4aec-9e87-3a57cb9d1243"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="BuscarRequerimientos.HTML" mc="Standard.Class" uid="a1c72e24-e2bd-41a2-8084-e19eb5fdb57d"/>
+        <COMPID name="Frm_BuscarRequerimientos" mc="Standard.Class" uid="72a93884-2256-4d63-9032-9477302d0419"/>
+        <COMPID name="BuscarRequerimientos_Razor" mc="Standard.Class" uid="d0451df2-e68f-4f61-971f-c8fc3f060c01"/>
+        <COMPID name="Requerimientos Servlet" mc="Standard.Class" uid="4c8ad64f-de10-4202-ac14-0ce8cc776c76"/>
+        <COMPID name="Requerimientos Service" mc="Standard.Class" uid="f2776993-7055-42dc-a38c-ad96fcbb83a9"/>
+        <COMPID name="DAOFactory" mc="Standard.Class" uid="6546583d-a6ff-4906-8b20-eec39c849168"/>
+        <COMPID name="MySQLRequerimientosDAO" mc="Standard.Class" uid="333e75dc-8bd4-46af-a4fd-f7ca73924aa0"/>
+        <COMPID name="MySQLDAOFactory" mc="Standard.Class" uid="b009b5b5-ba5b-495b-b0b3-50e2728e4fea"/>
+        <COMPID name="Conecta BD" mc="Standard.Class" uid="ddeb08b4-2cbe-4c2a-a450-29a0d59c21fc"/>
+        <COMPID name="Interface" mc="Standard.Interface" uid="40dcdb60-1ace-449e-aa62-076b00d8bbf3"/>
+        <COMPID name="ArrayList" mc="Standard.Class" uid="686980b4-77e3-4054-8380-297027fe4e45"/>
+        <COMPID name="Requerimiento" mc="Standard.Class" uid="fa8a229c-110d-4a2b-bbbe-b0fefb1a0bd7"/>
+        <COMPID name="Productos" mc="Standard.Class" uid="5a88aeda-3709-4a2e-8aac-b2785ef38041"/>
+        <COMPID name="Class" mc="Standard.Class" uid="87a7729d-4e03-4428-956c-87bc8fb178e9"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama de clases del Diseño" mc="Standard.ClassDiagram" uid="842c8d9c-466d-4e02-8972-bbbf2d627387"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

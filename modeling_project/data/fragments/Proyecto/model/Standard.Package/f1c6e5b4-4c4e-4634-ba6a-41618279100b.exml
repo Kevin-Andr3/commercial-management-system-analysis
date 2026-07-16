@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RA_RegistrarRecepcionMercaderia" version="4">
+  <OBJECT>
+    <ID name="RA_RegistrarRecepcionMercaderia" mc="Standard.Package" uid="f1c6e5b4-4c4e-4634-ba6a-41618279100b"/>
+    <PID name="Mercaderia" mc="Standard.Package" uid="0d350549-568a-4a54-a616-1736f2c90ab4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RA_RegistrarRecepcionMercaderia]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Communication Interaction" mc="Standard.CommunicationInteraction" uid="0b503d0c-c431-45e4-88dc-cde0fcd2e033"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="CI_RegistrarRecepcion" mc="Standard.Class" uid="1b70dbda-8269-4cb2-9b05-3744af5b9ce7"/>
+        <COMPID name="CI_MenuRecepcion" mc="Standard.Class" uid="be534041-c956-48a3-953a-dd38f81f0943"/>
+        <COMPID name="CC_RegistrarRecepcion" mc="Standard.Class" uid="8c61e7fd-955c-44f0-b9ee-f8af8bbb5761"/>
+        <COMPID name="RecepcionMercaderia" mc="Standard.Class" uid="b6a9bc58-165d-4120-a7f8-26ae09cdbba2"/>
+        <COMPID name="Orden_Compra" mc="Standard.Class" uid="01f70c9e-ab81-4cdd-aadb-7c0a92050420"/>
+        <COMPID name="DetalleRecepcionMercaderia" mc="Standard.Class" uid="1838b047-91ea-42ff-b3e1-13a6606cd246"/>
+        <COMPID name="Proveedor" mc="Standard.Class" uid="59607398-3b27-44ec-be08-949589001a29"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama de Analisis de clase" mc="Standard.ClassDiagram" uid="fc9e4bfb-a351-4a66-a013-cd6d3b3af133"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

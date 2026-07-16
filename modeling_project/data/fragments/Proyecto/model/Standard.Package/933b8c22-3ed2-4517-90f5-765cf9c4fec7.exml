@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Modelo de Despliegue" version="4">
+  <OBJECT>
+    <ID name="Modelo de Despliegue" mc="Standard.Package" uid="933b8c22-3ed2-4517-90f5-765cf9c4fec7"/>
+    <PID name="Proyecto" mc="Standard.Project" uid="f5c6e8af-be9c-487a-84f9-2f2151b616e0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Modelo de Despliegue]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Cliente (Vendedor)" mc="Standard.Node" uid="81a7b939-49ee-45e0-9d72-11d62e2f81fa"/>
+        <COMPID name="Cliente (Administrador)" mc="Standard.Node" uid="3c1405b3-329b-467b-8e26-2371b52a5ccb"/>
+        <COMPID name="Cliente ( Almacenero)" mc="Standard.Node" uid="91aa1fdf-2d79-4ac7-b44a-1120d6cdfd21"/>
+        <COMPID name="Router" mc="Standard.Node" uid="3f9130d5-73fd-43bd-9a82-3f1965b1d71b"/>
+        <COMPID name="ServAplicaciones" mc="Standard.Node" uid="5afa3556-7e34-400b-819a-baefade26199"/>
+        <COMPID name="ServBaseDatos" mc="Standard.Node" uid="753dd18a-60c2-4cee-9221-b2073ae296fd"/>
+        <COMPID name="RegistrarVenta.HTML" mc="Standard.Component" uid="82ef98f1-e1c7-4988-ace5-af28c1c99044"/>
+        <COMPID name="Cliente (Visualizador)" mc="Standard.Node" uid="51a1075a-555b-42a8-99b9-e863e69dc9dd"/>
+        <COMPID name="Cliente (Registrador)" mc="Standard.Node" uid="ee23f3c3-092c-4cdb-b7b8-6deaa0171795"/>
+        <COMPID name="SolicitudRequerimientos.HTML" mc="Standard.Component" uid="7c25b7fc-2899-425d-9aba-18db8b6448aa"/>
+        <COMPID name="ConsultarVenta.HTML" mc="Standard.Component" uid="98a632cf-e1fc-40f2-9846-88361b51c01a"/>
+        <COMPID name="BuscarRequerimientos.HTML" mc="Standard.Component" uid="a2f8241a-de39-4acc-8eef-86a905b1d973"/>
+        <COMPID name="GenerarOrdenDeCompra.html" mc="Standard.Component" uid="44895dea-6cc4-4143-8f52-31fd027d674d"/>
+        <COMPID name="BuscarOrdenCompra.html" mc="Standard.Component" uid="ab820472-7347-471f-a4cd-cb562a899114"/>
+        <COMPID name="RegistrarRecepcion.HTML" mc="Standard.Component" uid="9554e80b-b13c-4d42-932a-cbfd9a3ac2b9"/>
+        <COMPID name="BuscarRecepción.html" mc="Standard.Component" uid="60fecc87-50c8-4ac9-bd33-d7c161c8cd40"/>
+        <COMPID name="RegistrarVenta" mc="Standard.Component" uid="7170edd8-7b60-4462-a86b-68297ef11865"/>
+        <COMPID name="GenerarOrdendeCompra" mc="Standard.Component" uid="1f9f9501-2c56-48a0-b6b1-7a4c624e0602"/>
+        <COMPID name="Buscar Cliente" mc="Standard.Component" uid="a09a83a9-1c08-4938-8e86-c00e07acd326"/>
+        <COMPID name="RegistrarMercaderia" mc="Standard.Component" uid="cb165185-2d26-442b-9207-0dce474c8e4c"/>
+        <COMPID name="BuscarOrdenDeCompra" mc="Standard.Component" uid="98058609-af08-4490-975d-bb488f8add69"/>
+        <COMPID name="RegistrarDevolucionProducto" mc="Standard.Component" uid="50b71e24-3891-4cd3-9d40-b930468151cc"/>
+        <COMPID name="BuscarProducto" mc="Standard.Component" uid="0feb9eb9-fa81-492f-b7d9-47cff4571912"/>
+        <COMPID name="GenerarReportesVenta" mc="Standard.Component" uid="c780d626-685c-4ecf-8903-5998cd690706"/>
+        <COMPID name="RegistrarPagoProveedor" mc="Standard.Component" uid="15b4b1e6-e9a1-4f7d-b67f-9d3cbe38c523"/>
+        <COMPID name="RegistrarRequerimientos" mc="Standard.Component" uid="c4634fa1-f864-4c13-a00f-b688b2e5b186"/>
+        <COMPID name="Cliente.html" mc="Standard.Component" uid="f1079a00-72b0-4f0f-baf0-d96af7ca6114"/>
+        <COMPID name="BuscarCliente.html" mc="Standard.Component" uid="ea4feecd-2d48-4beb-a0e4-7ab145cf3655"/>
+        <COMPID name="RegistrarDevolucionProducto.html" mc="Standard.Component" uid="c3fbf44f-0258-4f73-8da2-7374b6c94855"/>
+        <COMPID name="BuscarProducto.html" mc="Standard.Component" uid="30e749c6-8ace-49ef-b17e-e2333fa30ce3"/>
+        <COMPID name="Producto.HTML" mc="Standard.Component" uid="cfbabf6a-f565-4d10-93ca-2b571e469438"/>
+        <COMPID name="RegistroPagoProveedor.HTML" mc="Standard.Component" uid="58ffefb4-8e63-45f9-9dd1-19194244adcd"/>
+        <COMPID name="ReportesVenta.HTML" mc="Standard.Component" uid="a93b2a7b-156f-40c8-89f9-5408ac30efc4"/>
+        <COMPID name="Proveedor.html" mc="Standard.Component" uid="5a8236bf-3616-44ed-b816-6d92f55a406a"/>
+        <COMPID name="BuscarProveedor" mc="Standard.Component" uid="3e8bd7e2-985f-42e9-aa11-70fac584cab1"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama de Despliegue y Componentes" mc="Standard.DeploymentDiagram" uid="66bbf7e1-ac90-4b9f-93e1-509f30d1f6c5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RA_Registrar Solicitud de Requerimientos" version="4">
+  <OBJECT>
+    <ID name="RA_Registrar Solicitud de Requerimientos" mc="Standard.Package" uid="0f540be8-54d4-4e72-9fa6-4d70d0ddc10d"/>
+    <PID name="Requerimientos" mc="Standard.Package" uid="cbbdb17f-f2e7-4c5b-846b-6a3eb3f5c800"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RA_Registrar Solicitud de Requerimientos]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Communication Interaction" mc="Standard.CommunicationInteraction" uid="35ca559b-fd10-4399-bf90-a6a486f2db5f"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="CI_MenúPrincipal" mc="Standard.Class" uid="da6756fe-d027-4a2a-b047-15b3022c513e"/>
+        <COMPID name="CI_Registrar SR" mc="Standard.Class" uid="642b9da9-7015-4523-9289-b38014228859"/>
+        <COMPID name="CC_Registrar SR" mc="Standard.Class" uid="54623e27-cbee-4cf2-bf32-872839678c34"/>
+        <COMPID name="Detalle_SR" mc="Standard.Class" uid="1a993947-3485-4eb5-8ef6-c60674c1d83c"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama de Analisis de Clases" mc="Standard.ClassDiagram" uid="976cb85b-491d-4cbc-9e64-7b5834602fbd"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

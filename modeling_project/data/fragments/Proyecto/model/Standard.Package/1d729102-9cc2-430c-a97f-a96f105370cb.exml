@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RA_Buscar Rquerimientos" version="4">
+  <OBJECT>
+    <ID name="RA_Buscar Rquerimientos" mc="Standard.Package" uid="1d729102-9cc2-430c-a97f-a96f105370cb"/>
+    <PID name="Requerimientos" mc="Standard.Package" uid="cbbdb17f-f2e7-4c5b-846b-6a3eb3f5c800"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RA_Buscar Rquerimientos]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Communication Interaction" mc="Standard.CommunicationInteraction" uid="ae5e3910-a6fe-493e-a87e-eb1eb8e68fec"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="CI_Buscar requerimientos Adicionales" mc="Standard.Class" uid="92da547c-f206-45fe-a6d4-f090ef3865af"/>
+        <COMPID name="CC_SolicitudRequerimiento" mc="Standard.Class" uid="6786ff17-97b6-4d75-9fe8-76f6b9a2fce8"/>
+        <COMPID name="Detalle de requerimiento" mc="Standard.Class" uid="dafd1363-5425-4bca-bf7a-84cc8d730c13"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama de Analisis de Clases" mc="Standard.ClassDiagram" uid="9b401e60-2cca-4db8-8e70-96f73db58f17"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

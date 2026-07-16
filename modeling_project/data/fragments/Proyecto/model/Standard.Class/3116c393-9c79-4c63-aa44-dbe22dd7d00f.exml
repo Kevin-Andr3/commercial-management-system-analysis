@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Agilizar el registro de ventas en un 15% para finales de año del 2026" version="4">
+  <OBJECT>
+    <ID name="Agilizar el registro de ventas en un 15% para finales de año del 2026" mc="Standard.Class" uid="3116c393-9c79-4c63-aa44-dbe22dd7d00f"/>
+    <PID name="ON" mc="Standard.Package" uid="07c42d46-12c0-4097-8001-e3ef1d9e6edd"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Agilizar el registro de ventas en un 15% para finales de año del 2026]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="ElementImport" mc="Standard.ElementImport" uid="aae9e22d-d67e-4716-86f0-73e0058e68ca"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"><![CDATA[ElementImport]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="Registrar ventas" mc="Standard.UseCase" uid="27c60d56-23a8-46f2-94f6-fda41da8477f"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <ID name="ON" mc="Infrastructure.Stereotype" uid="898f81ec-3a6a-4629-8015-2c0dde787a07"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

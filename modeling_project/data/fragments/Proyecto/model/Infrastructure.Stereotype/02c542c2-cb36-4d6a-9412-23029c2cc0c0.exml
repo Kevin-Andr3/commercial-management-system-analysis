@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ModeloDiseño" version="4">
+  <OBJECT>
+    <ID name="ModeloDiseño" mc="Infrastructure.Stereotype" uid="02c542c2-cb36-4d6a-9412-23029c2cc0c0"/>
+    <PID name="LocalProfile" mc="Infrastructure.Profile" uid="639ad6b8-b2e5-488f-a5c4-a3a88d621085"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[designModel.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[ModeloDiseño]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Package]]></ATT>
+      <ATT name="Name"><![CDATA[ModeloDiseño]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

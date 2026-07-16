@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Requerimientos" version="4">
+  <OBJECT>
+    <ID name="Requerimientos" mc="Standard.Package" uid="cbbdb17f-f2e7-4c5b-846b-6a3eb3f5c800"/>
+    <PID name="Realizacion de Analisis" mc="Standard.Package" uid="a08f78ce-b478-44a8-ba8d-de7246829ca8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Requerimientos]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="ElementImport" mc="Standard.ElementImport" uid="23036bab-9618-4b44-be88-f0ea36dcb6fd"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"><![CDATA[ElementImport]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="Producto" mc="Standard.Package" uid="f239b6fa-07cb-4829-9bbb-e2ea9d29f5a2"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="RA_Registrar Solicitud de Requerimientos" mc="Standard.Package" uid="0f540be8-54d4-4e72-9fa6-4d70d0ddc10d"/>
+        <COMPID name="RA_Buscar Rquerimientos Adicionales" mc="Standard.Package" uid="1d729102-9cc2-430c-a97f-a96f105370cb"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

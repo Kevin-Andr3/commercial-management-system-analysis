@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RegistrarPagoProveedor" version="4">
+  <OBJECT>
+    <ID name="RegistrarPagoProveedor" mc="Standard.Component" uid="15b4b1e6-e9a1-4f7d-b67f-9d3cbe38c523"/>
+    <PID name="Modelo de Despliegue" mc="Standard.Package" uid="933b8c22-3ed2-4517-90f5-765cf9c4fec7"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RegistrarPagoProveedor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RA_BuscarRecepción" version="4">
+  <OBJECT>
+    <ID name="RA_BuscarRecepción" mc="Standard.Package" uid="4dd2ff2e-9fb4-494c-972d-8fabb8b31a1e"/>
+    <PID name="Mercaderia" mc="Standard.Package" uid="0d350549-568a-4a54-a616-1736f2c90ab4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RA_BuscarRecepción]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Communication Interaction" mc="Standard.CommunicationInteraction" uid="66a3d187-6e9c-4609-b352-d1d34c256996"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="CI_BuscarRecepcion" mc="Standard.Class" uid="5826287d-f3b1-46cc-a4f9-0207df36c3ce"/>
+        <COMPID name="CC_BuscarRecepcion" mc="Standard.Class" uid="de9d5647-1857-4d02-b4ad-6f5022cc8f2b"/>
+        <COMPID name="RecepcionMercaderia" mc="Standard.Class" uid="7a071b7d-9860-4135-9e93-5c8629326efb"/>
+        <COMPID name="DetalleRecepcionMercaderia" mc="Standard.Class" uid="f928d2dc-8249-46e8-b172-f1452254324e"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama de Analisis de Clase" mc="Standard.ClassDiagram" uid="a34e32de-f53d-4176-9647-205a461c5ee9"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

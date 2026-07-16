@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RD_Registrar Requerimiento" version="4">
+  <OBJECT>
+    <ID name="RD_Registrar Requerimiento" mc="Standard.Package" uid="52eb9f9c-4945-407b-9044-30f899d9ac63"/>
+    <PID name="Realización del Diseño" mc="Standard.Package" uid="6cc4f43a-5abf-465c-99c9-8486d36eabe6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RD_Registrar Requerimiento]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="a0cc86dc-ee39-40ff-9965-8bd2bb91d463"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="MenuPrincipal.HTML" mc="Standard.Class" uid="5a514e51-b2f0-4027-b84d-604811ccff4e"/>
+        <COMPID name="MenuPrincipal_Razor" mc="Standard.Class" uid="bd7bd294-7400-48ba-8e7f-865000913b66"/>
+        <COMPID name="Frm_SolicitudRequerimientos" mc="Standard.Class" uid="c69082b1-3585-42d1-8437-358bf9fd4ffb"/>
+        <COMPID name="SolicitudRequerimientos.HTML" mc="Standard.Class" uid="624e2326-8440-4889-af6c-e0a0305d21e5"/>
+        <COMPID name="SolicitudRequerimientos_Razor" mc="Standard.Class" uid="001e0269-b5b0-4cfc-a6b1-d1a29490b4ba"/>
+        <COMPID name="RequerimientosServlet" mc="Standard.Class" uid="231e33b7-d463-4ceb-9486-c69f8bdb5050"/>
+        <COMPID name="Requerimientos Service" mc="Standard.Class" uid="bd0a5626-ed6d-4ff9-ba5c-04daa3bf315f"/>
+        <COMPID name="DAOFactory" mc="Standard.Class" uid="2e65b743-42ef-47d3-b3f1-8ec87404e017"/>
+        <COMPID name="MySQLDAOFactory" mc="Standard.Class" uid="799f08cf-85ef-4f33-828c-ea7eab9ef36e"/>
+        <COMPID name="MySQLRequerientosDAO" mc="Standard.Class" uid="f8817f85-4b6c-41db-b0d8-59db52fa0dcf"/>
+        <COMPID name="Conecta BD" mc="Standard.Class" uid="aa2b2a55-e7cd-4c61-9a91-288c720cae28"/>
+        <COMPID name="Interface" mc="Standard.Interface" uid="316581c2-d633-4e31-9157-07991887f02e"/>
+        <COMPID name="ArrayList" mc="Standard.Class" uid="37fd8ca1-cd04-4adc-a005-0125a4c016d9"/>
+        <COMPID name="Producto" mc="Standard.Class" uid="7877e529-a903-4166-9236-222660c645d8"/>
+        <COMPID name="Solicitud" mc="Standard.Class" uid="34e0d8af-afb3-434b-a230-a71e1130a57a"/>
+        <COMPID name="Detalle de solicitud" mc="Standard.Class" uid="4831a1f5-21aa-4e83-b07f-6afb1c270ea5"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama de clases del Diseño" mc="Standard.ClassDiagram" uid="bb4c7dd6-dda4-48f6-854a-c61ea34dd3dc"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

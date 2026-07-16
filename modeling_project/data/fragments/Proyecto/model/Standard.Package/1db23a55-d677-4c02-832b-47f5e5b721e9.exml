@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RD_RegistrarVenta" version="4">
+  <OBJECT>
+    <ID name="RD_RegistrarVenta" mc="Standard.Package" uid="1db23a55-d677-4c02-832b-47f5e5b721e9"/>
+    <PID name="Realización del Diseño" mc="Standard.Package" uid="6cc4f43a-5abf-465c-99c9-8486d36eabe6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RD_RegistrarVenta]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="e53c1462-7908-458c-82d6-85c5f760bdd9"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="MenuPrincipal.HTML" mc="Standard.Class" uid="5ade6bfe-7937-4ba7-b6e3-3b28f0872b2a"/>
+        <COMPID name="MenuPrin_Razor" mc="Standard.Class" uid="823dc53c-bcb3-4e27-a402-b639505ff49b"/>
+        <COMPID name="Frm_RegistrarVenta" mc="Standard.Class" uid="dbc88228-63a2-4789-bf3f-f32c0212c830"/>
+        <COMPID name="RegistrarVenta.HTML" mc="Standard.Class" uid="8d33447c-526f-4886-864a-56dfeff40c55"/>
+        <COMPID name="RegistrarVenta_Razor" mc="Standard.Class" uid="4f41fcc4-ab25-47e8-a3c4-3aa46fdc29ed"/>
+        <COMPID name="VentaServlet" mc="Standard.Class" uid="d2e729aa-914e-4d0a-838f-c2f671c8c8cf"/>
+        <COMPID name="VentaService" mc="Standard.Class" uid="e5e4ade5-7cae-45d0-8c1e-bbd43173dc95"/>
+        <COMPID name="DAOFactory" mc="Standard.Class" uid="246e3069-725a-4b1f-8508-e10d2b8993e2"/>
+        <COMPID name="MySQLDAOFactory" mc="Standard.Class" uid="2d8c3a6f-4ea6-4646-9a67-88efef917e0d"/>
+        <COMPID name="MySQLVentaDAO" mc="Standard.Class" uid="4e6ea5c1-c753-4c07-ad74-5e06721e3083"/>
+        <COMPID name="Interface" mc="Standard.Interface" uid="7747c5aa-2c21-4d0f-9108-21439c2e64ea"/>
+        <COMPID name="ConectaBD" mc="Standard.Class" uid="7991b22e-5c9f-4a18-955d-c71137bd5998"/>
+        <COMPID name="ArrayList" mc="Standard.Class" uid="7ddcda54-2644-4f11-aa62-444a2649b68a"/>
+        <COMPID name="Venta" mc="Standard.Class" uid="750ebc82-430f-4b72-a6d2-354010075560"/>
+        <COMPID name="Cliente" mc="Standard.Class" uid="eef3e803-5bfa-4f32-aa6e-c260555aea2e"/>
+        <COMPID name="Producto" mc="Standard.Class" uid="9367e277-1c5d-429e-8ed3-f2c972f04940"/>
+        <COMPID name="Det_Venta" mc="Standard.Class" uid="3e08cd9e-3afd-4301-9320-699d5eb9f5a0"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama de Clases del Diseño" mc="Standard.ClassDiagram" uid="30bf49f9-3c47-4ab5-86ed-4636f230800f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

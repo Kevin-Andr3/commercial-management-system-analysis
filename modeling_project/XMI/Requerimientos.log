@@ -1,0 +1,4 @@
+[14/05/26 23:50:37]: Error : The Modelio element "CollaborationImpl" named "locals" is owned by an element of type "CommunicationInteractionImpl". This is not supported by UML2.
+[14/05/26 23:50:37]: Error : The Modelio element "CollaborationImpl" named "locals" is owned by an element of type "CommunicationInteractionImpl". This is not supported by UML2.
+[14/05/26 23:50:37]: Warning : Type is null.
+[14/05/26 23:50:37]: Warning : Type is null.

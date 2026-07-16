@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="AN" version="4">
+  <OBJECT>
+    <ID name="AN" mc="Standard.Package" uid="0b242593-1821-4caa-a74c-f33667f78ea7"/>
+    <PID name="MCUN" mc="Standard.Package" uid="32d8a3db-835e-4263-800b-166d623a7f35"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[AN]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Cliente" mc="Standard.Actor" uid="d2211cf7-a693-43ae-b43c-39e5531c0b95"/>
+        <COMPID name="Administrador" mc="Standard.Actor" uid="8a01345b-d572-4583-866a-8328a9ed2ca7"/>
+        <COMPID name="Proveedor" mc="Standard.Actor" uid="c21a3198-b261-4cb0-a173-032fbdd8f480"/>
+        <COMPID name="Repartidor" mc="Standard.Actor" uid="1a6da95f-4981-4d3f-a716-b4c8c6b85fdf"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

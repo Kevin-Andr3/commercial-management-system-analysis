@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Modelo de Diseño" version="4">
+  <OBJECT>
+    <ID name="Modelo de Diseño" mc="Standard.Package" uid="0d901f37-4fb3-4898-9317-62136a3ae9e6"/>
+    <PID name="Proyecto" mc="Standard.Project" uid="f5c6e8af-be9c-487a-84f9-2f2151b616e0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Modelo de Diseño]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Realización del Diseño" mc="Standard.Package" uid="6cc4f43a-5abf-465c-99c9-8486d36eabe6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <ID name="ModeloDiseño" mc="Infrastructure.Stereotype" uid="02c542c2-cb36-4d6a-9412-23029c2cc0c0"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

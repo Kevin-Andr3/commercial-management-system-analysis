@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MenuPrincipal.html" version="4">
+  <OBJECT>
+    <ID name="MenuPrincipal.html" mc="Standard.Class" uid="8c4b84db-bce5-44c6-8c6e-35ced6f874e6"/>
+    <PID name="RD_Orden_de_Compra" mc="Standard.Package" uid="1ea25a00-08eb-49a6-8594-a467b943bba5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[MenuPrincipal.html]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <ID name="PagWeb" mc="Infrastructure.Stereotype" uid="7f6c2f87-f4a0-42ee-8a65-c510287161da"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

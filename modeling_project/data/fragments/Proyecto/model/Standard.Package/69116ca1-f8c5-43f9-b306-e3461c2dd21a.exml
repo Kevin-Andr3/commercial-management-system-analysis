@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Modelo de Caso de Uso" version="4">
+  <OBJECT>
+    <ID name="Modelo de Caso de Uso" mc="Standard.Package" uid="69116ca1-f8c5-43f9-b306-e3461c2dd21a"/>
+    <PID name="Proyecto" mc="Standard.Project" uid="f5c6e8af-be9c-487a-84f9-2f2151b616e0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Modelo de Caso de Uso]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Actor" mc="Standard.Package" uid="3229be01-e038-4a55-a974-56b71887b07d"/>
+        <COMPID name="Caso de Uso" mc="Standard.Package" uid="fc24fafc-0049-4432-b1cb-8acfa94fa975"/>
+        <COMPID name="Registrar devolucion de producto" mc="Standard.UseCase" uid="cac61bd4-244b-4199-824e-33d88e2b5ca0"/>
+        <COMPID name="Registrar pago al proveedor" mc="Standard.UseCase" uid="b5b6c4ab-9579-440a-9b3b-667cbbd08f88"/>
+        <COMPID name="Buscar  recepcion" mc="Standard.UseCase" uid="bceee0fd-a400-4b6a-82d8-789d65db41e7"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama general de casos de uso del sistema" mc="Standard.UseCaseDiagram" uid="ebffc304-d586-48d4-9996-b4f096b545c4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RD_Registrar Recepción Mercadería" version="4">
+  <OBJECT>
+    <ID name="RD_Registrar Recepción Mercadería" mc="Standard.Package" uid="3c2f2e8c-fd0e-4772-a7be-61242772093b"/>
+    <PID name="Realización del Diseño" mc="Standard.Package" uid="6cc4f43a-5abf-465c-99c9-8486d36eabe6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RD_Registrar Recepción Mercadería]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="1292ac27-2391-4664-b8d4-81c27139d8e8"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Almacenero" mc="Standard.Actor" uid="400b7776-dd24-42cb-8f9f-5f86ef48388e"/>
+        <COMPID name="MenuRecepcion.HTML" mc="Standard.Class" uid="8a2fb42f-4233-479e-88cb-b14ef7a00a57"/>
+        <COMPID name="MenuRecepcion_Razor" mc="Standard.Class" uid="a4cc748e-42ad-4a44-8946-ecbf29e11bf7"/>
+        <COMPID name="Frm_RegistrarRecepcion" mc="Standard.Class" uid="7032cd4e-95c4-4dbc-956a-77a955d70f72"/>
+        <COMPID name="Recepcion Servlet" mc="Standard.Class" uid="dfdd2a57-41d8-4430-942f-d4f194e48cb0"/>
+        <COMPID name="RegistrarRecepcion.HTML" mc="Standard.Class" uid="ed483f2b-a012-41cd-9cc7-165943295bf0"/>
+        <COMPID name="RegistrarRecepcion_Razor" mc="Standard.Class" uid="ae4970de-2840-4d79-9bde-ccaddcd9c6da"/>
+        <COMPID name="Recepcion Service" mc="Standard.Class" uid="e61a8180-c6b4-44b8-95f8-fc1c5e301a38"/>
+        <COMPID name="DAOFactory" mc="Standard.Class" uid="64b4f762-caf1-42ab-a5b5-fca7e045bdde"/>
+        <COMPID name="MySQLDAOFactory" mc="Standard.Class" uid="5356b209-90cd-403d-8cd7-496497834e79"/>
+        <COMPID name="MySQLRecepcionDAO" mc="Standard.Class" uid="0e661227-dddb-420f-b2b5-e76bb2ffec31"/>
+        <COMPID name="Interface" mc="Standard.Interface" uid="2cca5dc2-b27f-4e40-97f3-1914f8785df1"/>
+        <COMPID name="RecepcionMercaderia" mc="Standard.Class" uid="b7c4e41b-9af6-4463-a606-38abdb897761"/>
+        <COMPID name="DetalleRecepcionMercaderia" mc="Standard.Class" uid="2e6bd8ab-e451-4f10-a034-d0705e5f3b0b"/>
+        <COMPID name="Producto" mc="Standard.Class" uid="7e573b05-2822-4776-aea0-0c7531304260"/>
+        <COMPID name="Proveedor" mc="Standard.Class" uid="b2f036ae-6c30-414b-9d62-5e07351c52b9"/>
+        <COMPID name="Orden_Compra" mc="Standard.Class" uid="a242a68e-3c92-4fe8-a54f-578a2dfbbd42"/>
+        <COMPID name="ArrayList" mc="Standard.Class" uid="ae9cf98a-7c58-4884-8b9a-2543a9e371cc"/>
+        <COMPID name="Conecta_BD" mc="Standard.Class" uid="f8c5b267-3dc7-4f8c-b063-aed2fabaaff9"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama de clases del Diseño" mc="Standard.ClassDiagram" uid="5a061c97-22a1-46dd-968b-b5f2a674d654"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

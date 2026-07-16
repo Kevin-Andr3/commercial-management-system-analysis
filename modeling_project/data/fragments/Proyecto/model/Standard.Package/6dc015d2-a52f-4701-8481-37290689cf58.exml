@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RA_Buscar Orden de Compra" version="4">
+  <OBJECT>
+    <ID name="RA_Buscar Orden de Compra" mc="Standard.Package" uid="6dc015d2-a52f-4701-8481-37290689cf58"/>
+    <PID name="Orden de Compra" mc="Standard.Package" uid="32712543-2c39-4dd1-8175-583510bf74d0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RA_Buscar Orden de Compra]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Communication Interaction" mc="Standard.CommunicationInteraction" uid="b08d035b-e198-4869-b392-c9bed445a84a"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="CI_BuscarOrdenCompra" mc="Standard.Class" uid="77781d17-5c2b-456a-9586-a15926869d28"/>
+        <COMPID name="CC_BuscarOrdenCompra" mc="Standard.Class" uid="cd6443a9-9fef-44b7-8e45-cf00e54e3d97"/>
+        <COMPID name="DetalleOrdenCompra" mc="Standard.Class" uid="af010735-eabd-41b5-a495-da30e4ecd656"/>
+        <COMPID name="Orden_Compra" mc="Standard.Class" uid="d1253ec0-e965-48a3-9fbe-8d769809aad9"/>
+        <COMPID name="CI_OrdenDeCompra" mc="Standard.Class" uid="f4a30f48-f8b0-4a84-84e5-5c7f2557207d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama de Analisis de Clase" mc="Standard.ClassDiagram" uid="01eeb3da-db8c-41b4-a6d5-e99aac44364d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

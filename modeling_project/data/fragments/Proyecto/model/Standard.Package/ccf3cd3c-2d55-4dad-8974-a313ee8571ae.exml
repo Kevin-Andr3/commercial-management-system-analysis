@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RD_ Buscar Recepción" version="4">
+  <OBJECT>
+    <ID name="RD_ Buscar Recepción" mc="Standard.Package" uid="ccf3cd3c-2d55-4dad-8974-a313ee8571ae"/>
+    <PID name="Realización del Diseño" mc="Standard.Package" uid="6cc4f43a-5abf-465c-99c9-8486d36eabe6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RD_ Buscar Recepción]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="2c86571e-f354-458c-928c-8d03f90a1e74"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Administrador" mc="Standard.Actor" uid="08b34edb-f7e1-4cf9-bf05-2d3c055310d6"/>
+        <COMPID name="BuscarRecepcion_Razor" mc="Standard.Class" uid="f659cc7e-2f7c-4322-bf8d-3ea45fa607be"/>
+        <COMPID name="BuscarRecepción.html" mc="Standard.Class" uid="126437aa-63e9-4086-b875-af6cbad13308"/>
+        <COMPID name="Frm_BuscarRecepcion" mc="Standard.Class" uid="d0bd0c29-1d30-4feb-8bfe-b86d82901ddc"/>
+        <COMPID name="BRecepcion Servlet" mc="Standard.Class" uid="99b7af9c-b63c-4a60-808f-776cae44cac1"/>
+        <COMPID name="BRecepcion Service" mc="Standard.Class" uid="024416de-8250-4af4-b320-ab2184f7462b"/>
+        <COMPID name="DAOFactory" mc="Standard.Class" uid="84fff0d7-130c-4223-bb74-9c8c3325ae90"/>
+        <COMPID name="MySQLDAOFactory" mc="Standard.Class" uid="d54092f0-15eb-4e3a-a718-b76f939803a8"/>
+        <COMPID name="MySQLBRecepcionDAO" mc="Standard.Class" uid="bb64d70c-79e4-4c57-8913-3b4562661dbc"/>
+        <COMPID name="Interface" mc="Standard.Interface" uid="0d005135-8e01-44a4-aa24-135acbb21dda"/>
+        <COMPID name="RecepcionMercaderia" mc="Standard.Class" uid="560ce6ae-6de5-4f0d-9079-6e0460c24138"/>
+        <COMPID name="ArrayList" mc="Standard.Class" uid="556690c1-d49c-4b46-a87d-2342bd706bd0"/>
+        <COMPID name="Conecta BD" mc="Standard.Class" uid="c6ce8450-5205-4ff0-8315-15f9507087c8"/>
+        <COMPID name="DetalleRecepción" mc="Standard.Class" uid="19e8c1c6-9c76-4865-8bec-8d3a061320d7"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama de Clases de Diseño" mc="Standard.ClassDiagram" uid="a3e10403-c06e-4b3b-bf9c-0140fac99bca"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

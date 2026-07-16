@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="LocalProfile" version="4">
+  <OBJECT>
+    <ID name="LocalProfile" mc="Infrastructure.Profile" uid="639ad6b8-b2e5-488f-a5c4-a3a88d621085"/>
+    <PID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="fd9e2ca9-0ae5-419d-99f6-ff862cb11e90"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[LocalProfile]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="MCUN" mc="Infrastructure.Stereotype" uid="7e12db83-0191-4723-a2c3-1475cc6125ee"/>
+        <COMPID name="MAN" mc="Infrastructure.Stereotype" uid="4487e425-c10d-4db8-b57e-9ed78d4a8c97"/>
+        <COMPID name="ON" mc="Infrastructure.Stereotype" uid="898f81ec-3a6a-4629-8015-2c0dde787a07"/>
+        <COMPID name="AN" mc="Infrastructure.Stereotype" uid="f212a05f-ea24-4ed2-a688-bc2e49275298"/>
+        <COMPID name="CUN" mc="Infrastructure.Stereotype" uid="eb43b71e-c03f-4b26-b69a-91f13dd93fe0"/>
+        <COMPID name="TN" mc="Infrastructure.Stereotype" uid="9f9e1470-9ebf-4b8a-92ea-1dfbb21e96bb"/>
+        <COMPID name="EN" mc="Infrastructure.Stereotype" uid="b0cb288c-cd1c-4197-8e8b-c462bb18e393"/>
+        <COMPID name="Entidad" mc="Infrastructure.Stereotype" uid="6939d51c-fa34-4346-abbb-8d8ed0a912e1"/>
+        <COMPID name="MA" mc="Infrastructure.Stereotype" uid="fc8db6c2-6174-4a1a-bf80-aebd685820e6"/>
+        <COMPID name="Control" mc="Infrastructure.Stereotype" uid="9a0ed05e-a50d-49a3-93d3-93175fe61185"/>
+        <COMPID name="Interfaz" mc="Infrastructure.Stereotype" uid="e609a8a7-51fc-4c6b-ba39-f3b3b42c93af"/>
+        <COMPID name="PagWeb" mc="Infrastructure.Stereotype" uid="7f6c2f87-f4a0-42ee-8a65-c510287161da"/>
+        <COMPID name="Razor" mc="Infrastructure.Stereotype" uid="16af86ea-4723-4d38-9452-d9f68d30724c"/>
+        <COMPID name="Controller" mc="Infrastructure.Stereotype" uid="d9169e09-dc18-46bb-9e5d-9cd718d21710"/>
+        <COMPID name="FrmHTML" mc="Infrastructure.Stereotype" uid="fd9e4243-b611-4b67-ac00-9cb9894c7a6f"/>
+        <COMPID name="ModeloDiseño" mc="Infrastructure.Stereotype" uid="02c542c2-cb36-4d6a-9412-23029c2cc0c0"/>
+        <COMPID name="entidad" mc="Infrastructure.Stereotype" uid="27b1926c-07f0-416c-b5c1-a96cde50a0f1"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
